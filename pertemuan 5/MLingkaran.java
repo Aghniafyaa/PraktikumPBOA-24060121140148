@@ -11,11 +11,11 @@
         Scanner input = new Scanner(System.in);
 
         System.out.print("Masukkan jari-jari lingkaran: ");
-        double r = input.nextDouble();
+        double r = input.nextDouble(); //diubah
 
-        Lingkaran l = new Lingkaran(r);
-        System.out.println("Luas lingkaran dengan jejari " + r + 
-						   " satuan adalah " + l.hitungLuas());
+        Lingkaran l = new Lingkaran(r); //diubah
+        System.out.println("Luas lingkaran dengan jejari " + r +  //diubah
+						   " satuan adalah " + l.hitungLuas()); //diubah
     }
  }
  
